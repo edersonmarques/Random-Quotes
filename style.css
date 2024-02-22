@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #DFDBE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.container {
+    width: 1009px;
+    height: 673px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.342);
+}
+
+#quote-char {
+    width: 161px;
+    height: 141px;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    width: 806px;
+    padding: 0 50px;
+    margin-bottom: 20px;
+}
+
+#quote-phrase {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #364BA7;
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 680px;
+    height: 1px;
+    background-color: #364BA7;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#quote-author {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    color: #F583A7;
+}
+
+#generate {
+    width: 230px;
+    height: 83px;
+    border-radius: 10px;
+    background-color: #364BA7;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-align: center;
+    color: #F583A7;
+}
