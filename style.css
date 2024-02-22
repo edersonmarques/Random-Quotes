@@ -77,3 +77,8 @@ blockquote {
     text-align: center;
     color: #F583A7;
 }
+
+
+#generate:hover {
+    cursor: pointer;
+}
